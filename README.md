@@ -44,7 +44,7 @@ sudo certbot --nginx
 ## Create a Bookmarklet to record your learning experiences
 ```
 javascript: function rbm() {
-    window.rbmAuth = "LRS key", window.rbmEndpoint = "LRS endpoint", window.rbmEmail = "your e-mail", window.rbmName = "your name";
+    window.rbmAuth = "LRS auth key here", window.rbmEndpoint = "LRS endpoint here", window.rbmEmail = "E-maiil id of the learner here", window.rbmName = "Name of the learner here";
     var a = document,
         b = a.createElement("sc" + "ript"),
         c = a.body,
@@ -54,4 +54,5 @@ javascript: function rbm() {
 }
 rbm();
 void 0
+
 ```
